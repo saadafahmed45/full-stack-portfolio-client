@@ -1,0 +1,70 @@
+.about__section{
+    background-color: var( --body-color);
+    color:aliceblue;
+}
+.about__img img {
+	width:56%;
+}
+
+
+.about__table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  .about__table h4 {
+	font-size: var( --discription-size);
+}
+ 
+.section__header h5 {
+	color: var(--primary-color);
+	font-size: 20px;
+	border-bottom: 1px solid rebeccapurple;
+	padding: 5px;
+}
+.section__header h1 {
+	font-size:var(--title-size);
+	font-weight: 700;
+  color:var(--text-color);
+
+}
+.section__header p{
+	font-size: 18px;
+    width: 50%;
+}
+
+
+
+.about__discription h2 {
+    font-size: 50px;
+  }
+  .about__discription h3 {
+    font-size: 20px;
+    color:var(--Text-color);
+  }
+  .about__discription h3 span {
+   color:var(--primary-color)
+  }
+  .about__discription p {
+    font-size: 16px;
+    color:var(--secText-color);
+
+  }
+
+  .about__details h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+  .about__table h4 {
+    color:var(--secText-color);
+    margin-top: 10px;
+
+  }
+  .about__table h4 span {
+    color:#fff;
+	font-weight: 600;
+
+  }

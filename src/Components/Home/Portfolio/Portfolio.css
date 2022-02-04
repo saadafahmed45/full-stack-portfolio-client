@@ -1,0 +1,65 @@
+.portfilo__section {
+  background-color: var(--secBody-color);
+}
+
+.sec__para {
+  color: var(--secText-color);
+}
+
+.port__box img {
+  width: 100%;
+  /* height: 350px; */
+}
+
+.port__box {
+  /* width: 100%;
+    background:#fff;
+    height: 400px;
+  position: relative;
+    padding: 3px;
+    margin-bottom: 20px; */
+  border-radius: 10px;
+
+  background: hsla(0, 0%, 100%, 0.25);
+  box-shadow: 0 8px 32px 0 rgb(0 8 45 / 37%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  padding: 15px 15px 0;
+  width: 350px;
+  height: 470px;
+  margin-top: 20px;
+  color: aliceblue;
+  overflow:hidden;
+
+}
+.port__box:hover{
+    /* box-shadow: 0 8px 32px 0 rgb(0 8 45 / 50%); */
+  background: hsla(0, 0%, 100%, 0.25);
+  box-shadow: rebeccapurple 0px 5px 15px;
+  border: 2px solid hsla(0, 0%, 100%, 0.18);
+
+}
+
+.port__box:hover img{
+  width: 101%;
+  transition:ease-in .5s all;
+
+}
+.port__content {
+
+	margin-top: 10px;
+}
+.port__button a {
+  margin-left: 15px;
+  text-align: center;
+}
+.port__button {
+  text-align: left;
+}
+.port__content h4 {
+  font-weight: 600;
+}
+
+/* 01930026773 */
+

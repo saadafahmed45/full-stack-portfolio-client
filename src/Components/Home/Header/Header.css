@@ -1,0 +1,33 @@
+
+header{
+    background-image: url(../../Images/7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+  /* overflow:hidden; */
+
+    /* max-width: 100%; */
+}
+
+.header__content h2{
+    font-size: var( --secTitle-size);
+color:var(  --text-color);
+}
+
+.typeing span {
+	color: rgba(230, 228, 228, 0.959);
+	font-size:  var( --title-size);
+}
+.header__content h1{
+font-size: var( --title-size);
+font-weight: 700;
+color:var(  --primary-color);
+}
+.header__content p{
+font-size:var( --discription-size);
+color:var( --secText-color);
+width: 100%;
+
+}

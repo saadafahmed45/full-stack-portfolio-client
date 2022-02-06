@@ -5,6 +5,17 @@
 .sec__para {
   color: var(--secText-color);
 }
+.port__content p {
+	font-size: 15px;
+	width: 98%;
+}
+.port__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 
 .port__box img {
   width: 100%;
@@ -12,43 +23,35 @@
 }
 
 .port__box {
-  /* width: 100%;
-    background:#fff;
-    height: 400px;
-  position: relative;
-    padding: 3px;
-    margin-bottom: 20px; */
-  border-radius: 10px;
 
+  border-radius: 10px;
+  margin: 0 10px;
   background: hsla(0, 0%, 100%, 0.25);
   box-shadow: 0 8px 32px 0 rgb(0 8 45 / 37%);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid hsla(0, 0%, 100%, 0.18);
   padding: 15px 15px 0;
-  width: 350px;
-  height: 470px;
+  width: 320px;
+  height: 440px;
   margin-top: 20px;
   color: aliceblue;
-  overflow:hidden;
-
+  overflow: hidden;
+  /* text-align: center; */
 }
-.port__box:hover{
-    /* box-shadow: 0 8px 32px 0 rgb(0 8 45 / 50%); */
+.port__box:hover {
+  /* box-shadow: 0 8px 32px 0 rgb(0 8 45 / 50%); */
   background: hsla(0, 0%, 100%, 0.25);
-  box-shadow: rebeccapurple 0px 5px 15px;
-  border: 2px solid hsla(0, 0%, 100%, 0.18);
-
+  box-shadow: rgba(72, 38, 105, 0.795) 0px 5px 15px;
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
 }
 
-.port__box:hover img{
-  width: 101%;
-  transition:ease-in .5s all;
-
+.port__box:hover img {
+  /* width: 101%; */
+  transition: ease-in 0.5s all;
 }
 .port__content {
-
-	margin-top: 10px;
+  margin-top: 10px;
 }
 .port__button a {
   margin-left: 15px;
@@ -63,3 +66,22 @@
 
 /* 01930026773 */
 
+@media screen and (max-width: 770px) {
+  .port__container{
+   
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  
+.port__box {
+  margin: 20px 0px;
+
+  
+  width: 340px;
+  height: 450px;
+ 
+}
+}

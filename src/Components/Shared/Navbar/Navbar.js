@@ -13,8 +13,6 @@ const [clicked,setClick] = useState(false)
 
 
 
-
-
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -44,10 +42,10 @@ const [clicked,setClick] = useState(false)
             <a href="#">service</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
             <a href="#">Contact</a>

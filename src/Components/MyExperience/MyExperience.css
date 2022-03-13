@@ -16,7 +16,16 @@
 .exp1 {
   width: 100%;
   background: var(--secBody-color);
-  height: 400px;
+  height: 420px;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.exp2 {
+  width: 100%;
+  background: var(--secBody-color);
+  height: 420px;
   position: relative;
   border-radius: 10px;
   padding: 20px;
@@ -48,7 +57,7 @@
   /* background: rgb(88, 74, 74); */
   /* padding: 5px 10px; */
   align-content: center;
-  padding: 3px 7px;
+  padding: 2px 6px;
   margin: 6px;
   background: hsla(0, 0%, 100%, 0.25);
   box-shadow: 0 8px 32px 0 rgba(0, 8, 45, 0.37);
@@ -99,10 +108,10 @@
   .sec__para {
     width: 88%;
   }
-  .section__header p {
+  /* .section__header p {
     font-size: 18px;
     width: 95%;
-  }
+  } */
 
   .education h5 {
     font-size: 17px;
@@ -115,5 +124,14 @@
   .education h4 span {
     font-size: 15px;
     color: gray;
+  }
+  .exp2 {
+    width: 100%;
+    background: var(--secBody-color);
+    height: 480px;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
   }
 }

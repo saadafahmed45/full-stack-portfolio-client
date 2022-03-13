@@ -17,8 +17,13 @@ li {
 section{
   padding:100px 0px;
 }
+.home_spnner{
+  margin-top: 10%;
+}
 
-
+.home_spnner img{
+  width: 300px;
+}
 :root {
   /* color */
   --primary-color: #10e762;
@@ -36,11 +41,23 @@ section{
  --button-size:30px;
 
 }
+.styles_scroll-to-top__2A70v {
+	background: #10e762 !important;
+}
 
-
+/* @media screen and (max-width: 390px) {
+  .home_spnner{
+    margin-top: 25%;
+  }
+} */
 
 @media screen and (max-width: 770px) {
-
+  .home_spnner img{
+    width: 200px;
+  }
+  .home_spnner{
+    margin-top: 35%;
+  }
 :root {
 
 

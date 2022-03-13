@@ -33,7 +33,7 @@ header::after {
 }
 
 .typeing span {
-  color: rgba(230, 228, 228, 0.959);
+  color: rgba(181, 189, 181, 0.959);
   font-size: var(--title-size);
 }
 .header__content h1 {

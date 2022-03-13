@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./MyExperience.css";
 import js from "../Images/icons/js.svg";
 import nodeJs from "../Images/icons/node-js.svg";
@@ -11,8 +11,17 @@ import html from "../Images/icons/html.svg";
 import bootstrap from "../Images/icons/boootstrap.svg";
 import metarial from "../Images/icons/meterial ui.svg";
 import photoahop from "../Images/icons/photoshop.svg";
-// import html from "../Images/icons/html.svg";
+import tailwindcss from "../Images/icons/tailwind.svg";
+import github from "../Images/icons/github.svg";
+import wordpress from "../Images/icons/wordpress-blue.svg";
+import reactRouter from "../Images/icons/react-router.svg";
+import npm from "../Images/icons/npm.svg";
+import "aos/dist/aos.css";
+import Aos from 'aos';
 const MyExperience = () => {
+  useEffect(() => {
+    Aos.init({duration:1500})
+  },[])
   return (
     <>
       <section className="experience__section">
@@ -31,7 +40,7 @@ const MyExperience = () => {
           </div>
           <div className="row mt-5">
             <div className="col-md-6 col-sm-6">
-              <div className="exp1">
+              <div className="exp1" data-aos="fade-up " data-aos-duration="1000">
                 <span class="badge bg-secondary">Education</span>
                 <div className="education mt-3">
                   <h5>2020-2021</h5>
@@ -51,7 +60,7 @@ const MyExperience = () => {
               </div>
             </div>
             <div className="col-md-6  col-sm-6">
-              <div className="exp1">
+              <div className="exp2" data-aos="fade-up " data-aos-duration="1000">
                 <span class="badge bg-secondary">My Skills</span>
 
                 <div className="skill">
@@ -100,19 +109,39 @@ const MyExperience = () => {
                       <img src={metarial} alt="" />
                       <h4>Metarieal Ui</h4>
                     </div>
-
+                    <div className="icon">
+                      <img src={reactRouter} alt="" />
+                      <h4>React Router</h4>
+                    </div> 
                     <div className="icon">
                       <img src={photoahop} alt="" />
-                      <h4>photoshop</h4>
+                      <h4>Photoshop</h4>
                     </div>
 
                     <div className="icon">
-                      <img src={metarial} alt="" />
-                      <h4>Metarieal Ui</h4>
+                      <img src={tailwindcss} alt="" />
+                      <h4>Tailwind CSS</h4>
                     </div>
+                    <div className="icon">
+                      <img src={github} alt="" />
+                      <h4>GitHUB</h4>
+                    </div>
+
+                    <div className="icon">
+                      <img src={npm} alt="" />
+                      <h4>NPM</h4>
+                    </div> 
                     
-                  </div>
+                    <div className="icon">
+                      <img src={wordpress} alt="" />
+                      <h4>Wordpress</h4>
+                    </div> 
+                    
                   
+
+
+{/* icon endpoint */}
+                  </div>  
                 </div>
               </div>
             </div>

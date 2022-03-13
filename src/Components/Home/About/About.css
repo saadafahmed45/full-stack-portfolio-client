@@ -4,6 +4,7 @@
 }
 .about__img img {
 	width:56%;
+  border-radius:8px;
 }
 
 
@@ -66,5 +67,39 @@
   .about__table h4 span {
     color:#fff;
 	font-weight: 600;
+  font-size: 16px;
 
+  }
+
+  @media (max-width: 575.98px) {
+ 
+    
+.about__discription h2 {
+  font-size: 40px;
+}
+.about__discription h3 {
+  font-size: 18px;
+  color:var(--Text-color);
+}
+.about__discription p {
+  font-size: 15px;
+  color:var(--secText-color);
+
+}
+
+.about__details h3 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+  .about__table h4 {
+    color:var(--secText-color);
+    margin-top: 10px;
+
+  }
+  .about__table h4 span {
+    color:#fff;
+	font-weight: 600;
+
+  }
   }

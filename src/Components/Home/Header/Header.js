@@ -32,7 +32,7 @@ const Header = () => {
                         2000,
                         "Developer",
                         1500,
-                        "Musical Artist",
+                        "Jr.Programmer",
                         2000,
                       ]}
                       loop={Infinity}
@@ -40,7 +40,7 @@ const Header = () => {
                     />{" "}
                   </span>
                 </div>
-                <h1>Based In California.</h1>
+                <h1>Based In Bangladesh.</h1>
                 <p>
                   I'm developer focused on crafting user‑friendly experiences, I
                   am passionate about building excellent software that improves

@@ -9,8 +9,16 @@ import uptownRiders from "../../Images/portfolio/ridar.jpg";
 import { AiFillGithub } from "react-icons/ai";
 import { IoArrowRedo } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import "aos/dist/aos.css";
+import Aos from 'aos';
 
 const Portfolio = () => {
+
+  useEffect(() => {
+    Aos.init({duration:1500})
+  },[])
+
+
   const portfolio = [
     {
       id: 1,
@@ -92,7 +100,7 @@ const Portfolio = () => {
                  {
                    portfolio.map((port)=> (
                     <div className="prt__main">
-                    <div className="port__box">
+                    <div className="port__box " data-aos="fade-up " data-aos-duration="2000">
                 <div className="port__content">
                 {/* dynamic */}
                 <Link to={`/portfolio_details/${port.id}`}>
@@ -109,7 +117,7 @@ const Portfolio = () => {
                           <AiFillGithub />
                           <span>Code</span>
                         </a>
-                        <a href={port.livelink} className="btn btn-outline-info ">
+                        <a href={port.liveLink} className="btn btn-outline-info ">
                           <IoArrowRedo />
                           <span>Live</span>
                         </a>

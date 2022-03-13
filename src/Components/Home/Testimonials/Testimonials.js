@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
 import "./Testimonials.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
 import "slick-carousel/slick/slick-theme.css";
-import imgMY from "../../Images/dp404.png"
-const Testimonials = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+import imgMY from "../../Images/dp404.png";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
+const Testimonials = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <div>
       <section className="testimonials__secction">
@@ -30,51 +36,56 @@ const Testimonials = () => {
           <div className="testimonials__slider">
             <div className="">
               <div className="slider">
-  <Slider {...settings}>
-         <div className="div">
-         <div className="single__container">
-            <div className="slider__img">
-                <img src={imgMY} alt="" />
-            </div>
-            <div className="slider__content">
-              
-                <h2>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, distinctio!</h2>
-            <h3>Saad-Af</h3>
-            <h5>web developer</h5>
-            </div>
-          </div>
-         </div>
-         <div className="div">
-         <div className="single__container">
-            <div className="slider__img">
-                <img src={imgMY} alt="" />
-            </div>
-            <div className="slider__content">
-              
-                <h2>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, distinctio!</h2>
-            <h3>Saad-Af</h3>
-            <h5>web developer</h5>
-            </div>
-          </div>
-         </div>
-         <div className="div">
-         <div className="single__container">
-            <div className="slider__img">
-                <img src={imgMY} alt="" />
-            </div>
-            <div className="slider__content">
-              
-                <h2>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, distinctio!</h2>
-            <h3>Saad-Af</h3>
-            <h5>web developer</h5>
-            </div>
-          </div>
-         </div>
-        </Slider>
+                <Slider {...settings}>
+                  <div className="div">
+                    <div className="single__container">
+                      <div className="slider__img" data-aos="fade-up " data-aos-duration="1000">
+                        <img src={imgMY} alt="" />
+                      </div>
+                      <div className="slider__content"data-aos="fade-left " data-aos-duration="1000">
+                        <h2>
+                          "Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Ratione, distinctio!
+                        </h2>
+                        <h3>Saad-Af</h3>
+                        <h5>web developer</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="div">
+                    <div className="single__container">
+                      <div className="slider__img">
+                        <img src={imgMY} alt="" />
+                      </div>
+                      <div className="slider__content">
+                        <h2>
+                          "Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Ratione, distinctio!
+                        </h2>
+                        <h3>Saad-Af</h3>
+                        <h5>web developer</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="div">
+                    <div className="single__container">
+                      <div className="slider__img">
+                        <img src={imgMY} alt="" />
+                      </div>
+                      <div className="slider__content">
+                        <h2>
+                          "Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Ratione, distinctio!
+                        </h2>
+                        <h3>Saad-Af</h3>
+                        <h5>web developer</h5>
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
               </div>
             </div>
           </div>
-
         </div>
       </section>
     </div>

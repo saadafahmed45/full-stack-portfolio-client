@@ -1,4 +1,5 @@
 import "./App.css";
+
 import { Routes, Route } from "react-router-dom";
 import HomeMain from "./Components/Home/HomeMain/HomeMain";
 import Navbar from "./Components/Shared/Navbar/Navbar";
@@ -11,12 +12,17 @@ import PortfolioDetails from "./Components/Home/PortfolioDetails/PortfolioDetail
 
 
 function App() {
+
+
   return (
     <div className="App">
 
 
       <Routes>
-        <Route path="/" element={<HomeMain />} />
+        <Route path="/" element={<HomeMain />
+        
+        } />
+
        <Route path="/portfolio_details/:id" element={<PortfolioDetails/>}/>
     
         <Route path="/dashboard" element={<Dashboard/>} />

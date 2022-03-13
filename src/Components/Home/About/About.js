@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
 import "./About.css";
 import about from "../../Images/aboutPic.jpg";
+import "aos/dist/aos.css";
+import Aos from 'aos';
+ 
 const About = () => {
+  useEffect(() => {
+    Aos.init({duration:1500})
+  },[])
   return (
     <>
       <section className="about__section" id="about">
@@ -16,11 +23,11 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-md-6">
-              <div className="about__img">
+              <div className="about__img" data-aos="fade-up " data-aos-duration="1000">
                 <img src={about} alt="" />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up " data-aos-duration="1000">
               <div className="about__discription">
                 <h2>I'm Saad-af</h2>
                 <h3>

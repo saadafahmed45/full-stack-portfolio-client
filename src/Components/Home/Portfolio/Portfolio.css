@@ -9,6 +9,10 @@
   font-size: 15px;
   width: 98%;
 }
+.port__content a{
+  color: aliceblue;
+
+}
 .port__container {
   display: flex;
   justify-content: space-between;
@@ -31,8 +35,8 @@
   border: 1px solid hsla(0, 0%, 100%, 0.18);
   padding: 15px 15px 0;
   width: 320px;
-  height: 440px;
-  margin-top: 20px;
+  height: 420px;
+  margin-top: 50px;
   color: aliceblue;
   overflow: hidden;
   /* text-align: center; */
@@ -60,6 +64,7 @@
 }
 .port__content h4 {
   font-weight: 600;
+  margin-top: 15px;
 }
 
 /* 01930026773 */

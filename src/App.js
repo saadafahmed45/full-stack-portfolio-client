@@ -7,6 +7,7 @@ import Dashboard from "./Components/Admin/Dashboard/Dashboard"
 import Blog from "./Components/Home/Blog/Blog";
 import AddBlog from "./Components/Admin/AddBlog/AddBlog";
 import ScrollToTop from "react-scroll-to-top";
+import PortfolioDetails from "./Components/Home/PortfolioDetails/PortfolioDetails";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomeMain />} />
-       
+       <Route path="/portfolio_details/:id" element={<PortfolioDetails/>}/>
+    
         <Route path="/dashboard" element={<Dashboard/>} />
         {/* <Route path="about" element={<About />} /> */}
         <Route path="/dashboard/addBlog" element={<AddBlog/>} />

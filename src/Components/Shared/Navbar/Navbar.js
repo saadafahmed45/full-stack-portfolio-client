@@ -9,12 +9,12 @@ import { AiTwotoneHome } from "react-icons/ai";
 
 const Navbar = () => {
   // togole
-  const [clicked, setClick] = useState(false);
+  // const [clicked, setClick] = useState(false);
 
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY >= 80) {
       setNavbar(true);
     } else {

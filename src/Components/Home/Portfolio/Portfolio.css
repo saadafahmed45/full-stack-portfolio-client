@@ -41,9 +41,11 @@
   overflow: hidden;
   /* text-align: center; */
 }
+
 .port__box:hover {
+  transition:.3s;
   /* box-shadow: 0 8px 32px 0 rgb(0 8 45 / 50%); */
-  background: hsla(0, 0%, 100%, 0.25);
+  background: hsla(0, 2%, 35%, 0.575);
   box-shadow: rgba(72, 38, 105, 0.795) 0px 5px 15px;
   border: 1px solid hsla(0, 0%, 100%, 0.18);
 }

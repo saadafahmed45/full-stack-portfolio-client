@@ -5,7 +5,7 @@ import ars from "../../Images/portfolio/ars.jpg";
 import food from "../../Images/portfolio/food.jpg";
 import webaidpro from "../../Images/portfolio/web.jpg";
 import burgerKing from "../../Images/portfolio/burger.jpg";
-import urbanRiders from "../../Images/portfolio/ridar.jpg";
+import uptownRiders from "../../Images/portfolio/ridar.jpg";
 import { AiFillGithub } from "react-icons/ai";
 import { IoArrowRedo } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -18,18 +18,18 @@ const Portfolio = () => {
       img: ars,
       imgFull: ars,
       dis: "A full stack ecommerce website with custom API,built with, Technology: Reactjs,Node.js,Express.js ,MongoDB",
-      codeLink: "code",
-      liveLink: "live",
+      codeLink: "https://github.com/saadafahmed45/ARS_fitness_center",
+      liveLink: "https://ars-fitness-center.netlify.app/",
     },
     {
       id: 2,
-      name: "AIR Con",
+      name: "AIR Contact",
       img: air,
       imgFull: air,
       dis: "A full stack ecommerce website with custom API,built with, Technology: Reactjs,Node.js,Express.js ,MongoDB",
 
-      codeLink: "code",
-      liveLink: "live",
+      codeLink: "https://github.com/saadafahmed45/Flight-Booking",
+      liveLink: "https://saadafahmed45.github.io/Flight-Booking/",
     },
     {
       id: 3,
@@ -38,8 +38,8 @@ const Portfolio = () => {
       imgFull: food,
       dis: "A full stack ecommerce website with custom API,built with, Technology: Reactjs,Node.js,Express.js ,MongoDB",
 
-      codeLink: "code",
-      liveLink: "live",
+      codeLink: "https://github.com/saadafahmed45/food-Lover",
+      liveLink: "https://saadafahmed45.github.io/food-Lover/",
     },
     {
       id: 4,
@@ -48,28 +48,28 @@ const Portfolio = () => {
       imgFull: webaidpro,
       dis: "A full stack ecommerce website with custom API,built with, Technology: Reactjs,Node.js,Express.js ,MongoDB",
 
-      codeLink: "code",
-      liveLink: "live",
+      codeLink: "https://github.com/saadafahmed45/web-aid-pro-client",
+      liveLink: "https://web-aid-pro.netlify.app/",
     },
     {
       id: 5,
       name: "Burger King",
       img: burgerKing,
-      imgFull: webaidpro,
+      imgFull: burgerKing,
       dis: "A full stack ecommerce website with custom API,built with, Technology: Reactjs,Node.js,Express.js ,MongoDB",
 
-      codeLink: "code",
-      liveLink: "live",
+      codeLink: "https://github.com/saadafahmed45/burger-shop-react",
+      liveLink: "https://burger-king-shop.netlify.app/",
     },
     {
       id: 5,
-      name: "Burger King",
-      img: urbanRiders,
-      imgFull: webaidpro,
+      name: "Uptown Riders",
+      img: uptownRiders,
+      imgFull: uptownRiders,
       dis: "A full stack ecommerce website with custom API,built with, Technology: Reactjs,Node.js,Express.js ,MongoDB",
 
-      codeLink: "code",
-      liveLink: "live",
+      codeLink: "https://github.com/saadafahmed45/uptown-riders",
+      liveLink: "https://burj-al-arab-saad-b614b.web.app/",
     },
   ];
 
@@ -109,7 +109,7 @@ const Portfolio = () => {
                           <AiFillGithub />
                           <span>Code</span>
                         </a>
-                        <a href="https://ars-fitness-center.netlify.app/" className="btn btn-outline-info ">
+                        <a href={port.livelink} className="btn btn-outline-info ">
                           <IoArrowRedo />
                           <span>Live</span>
                         </a>

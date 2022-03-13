@@ -103,4 +103,17 @@
     font-size: 18px;
     width: 95%;
   }
+
+  .education h5 {
+    font-size: 17px;
+    color: gray;
+  }
+  .education h4 {
+    font-size: 19px;
+    color: #fff;
+  }
+  .education h4 span {
+    font-size: 15px;
+    color: gray;
+  }
 }

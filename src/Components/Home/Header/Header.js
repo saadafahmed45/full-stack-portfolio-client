@@ -2,12 +2,22 @@ import React from "react";
 import "./Header.css";
 import Typical from "react-typical";
 import Navbar from "../../Shared/Navbar/Navbar";
+import AnimatedCursor from "react-animated-cursor";
 
 const Header = () => {
   return (
     <>
       <header>
+        <AnimatedCursor
+          innerSize={8}
+          outerSize={35}
+          color="3, 252, 44"
+          outerAlpha={0.4}
+          innerScale={0.7}
+          outerScale={2}
+        />
         <Navbar></Navbar>
+
         <div className="container">
           <div className="row">
             <div className="col-md-8">
@@ -39,7 +49,7 @@ const Header = () => {
               </div>
               <div className="header__button">
                 <a href="#" className="btn btn-lg btn-outline-light">
-                  See Portfolio
+                  Download CV
                 </a>
               </div>
             </div>

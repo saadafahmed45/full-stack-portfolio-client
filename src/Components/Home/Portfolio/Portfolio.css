@@ -6,16 +6,15 @@
   color: var(--secText-color);
 }
 .port__content p {
-	font-size: 15px;
-	width: 98%;
+  font-size: 15px;
+  width: 98%;
 }
-.port__container{
+.port__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 .port__box img {
   width: 100%;
@@ -23,7 +22,6 @@
 }
 
 .port__box {
-
   border-radius: 10px;
   margin: 0 10px;
   background: hsla(0, 0%, 100%, 0.25);
@@ -67,21 +65,26 @@
 /* 01930026773 */
 
 @media screen and (max-width: 770px) {
-  .port__container{
-   
+  .port__container {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
   }
 
+  .port__box {
+    margin: 20px 0px;
 
+    width: 340px;
+    height: 450px;
+  }
   
-.port__box {
-  margin: 20px 0px;
+.sec__para {
+  color: var(--secText-color);
+  width: 80% !important;
+}
+.section__header p {
+	font-size: 18px;
+  width: 80% !important;
 
-  
-  width: 340px;
-  height: 450px;
- 
 }
 }

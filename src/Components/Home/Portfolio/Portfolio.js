@@ -22,7 +22,9 @@ const Portfolio = () => {
             <div className="port__container">
               <div className="prt__main">
                 <a href="#">
-                  <div className="port__box">
+                
+
+                  <div className="port__box" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                     <img src={port1} alt="" />
                     <div className="port__content">
                       <h4>News Portal</h4>

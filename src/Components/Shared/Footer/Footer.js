@@ -7,7 +7,7 @@ import { FiMessageSquare } from "react-icons/fi";
 const Footer = () => {
   return (
     <>
-      <footer className="footer__section">
+      <footer className="footer__section" id="contact">
         <div className="section__header">
           <h5>Contact</h5>
         </div>
@@ -63,6 +63,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
+      <div className="copyright__section text-light p-1 d-flex justify-content-center">
+      <p>Copyright © 2021 Mohammad Haolader</p>
+      </div>
     </>
   );
 };

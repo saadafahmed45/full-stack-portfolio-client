@@ -45,7 +45,7 @@ section{
 
 
   /* font size */
- --title-size:50px;
+ --title-size:45px;
  --secTitle-size:30px;
  --discription-size:20px;
  --button-size:30px;
@@ -53,6 +53,9 @@ section{
 }
 
 
+section{
+  padding:50px 0px;
+}
 
 
 header{

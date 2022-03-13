@@ -19,7 +19,11 @@ const MyExperience = () => {
         <div className="container">
           <div className="experience__header">
             <h1>My Experience</h1>
-            <p>Web Developer with skills to build and maintain Front-end systems. Proficient in HTML, CSS, JavaScript, Reactjs, Nodejs, Expressjs and MongoDB. Passionate about new technologies and problem solving</p>
+            <p>
+              Web Developer with skills to build and maintain Front-end systems.
+              Proficient in HTML, CSS, JavaScript, Reactjs, Nodejs, Expressjs
+              and MongoDB. Passionate about new technologies and problem solving
+            </p>
             <button className="btn btn-lg  btn-success mt-3">
               {" "}
               Education & Skills
@@ -29,6 +33,21 @@ const MyExperience = () => {
             <div className="col-md-6 col-sm-6">
               <div className="exp1">
                 <span class="badge bg-secondary">Education</span>
+                <div className="education mt-3">
+                  <h5>2020-2021</h5>
+                  <h4>J.S.C Exam <span>-Shodesh Adorsho <br />School and Collage, Dhaka, 1362</span> </h4>
+                    <hr />
+                </div>
+                <div className="education">
+                  <h5>2020-2021</h5>
+                  <h4>S.S.C Commerce <span>-  A.K  <br />University, Dhaka, 1263</span> </h4>
+                    <hr />
+                </div>
+                <div className="education">
+                  <h5>2021-2022</h5>
+                  <h4>Ph.D in Horriblensess <span>- Mohammadbag Adarsho <br /> collage & University, Dhaka, Bangladesh</span> </h4>
+               
+                </div>
               </div>
             </div>
             <div className="col-md-6  col-sm-6">
@@ -91,12 +110,10 @@ const MyExperience = () => {
                       <img src={metarial} alt="" />
                       <h4>Metarieal Ui</h4>
                     </div>
+                    
                   </div>
+                  
                 </div>
-
-
-
-                
               </div>
             </div>
 
@@ -105,8 +122,6 @@ const MyExperience = () => {
                 <span class="badge bg-secondary">Awards</span>
               </div>
             </div> */}
-
-
           </div>
         </div>
       </section>

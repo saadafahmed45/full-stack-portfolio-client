@@ -85,3 +85,10 @@ input:focus {
   border-bottom: 1px solid rgb(221, 212, 212);
   outline: none;
 }
+
+
+.copyright__section{
+
+  background: var(--secBody-color);
+
+}

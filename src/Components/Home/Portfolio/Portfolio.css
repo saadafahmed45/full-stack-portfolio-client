@@ -89,6 +89,7 @@
   color: var(--secText-color);
   width: 80% !important;
 }
+
 .section__header p {
 	font-size: 18px;
   width: 95% !important;

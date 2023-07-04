@@ -4,22 +4,22 @@ import "./About.css";
 import about from "../../Images/aboutPic.jpg";
 import "aos/dist/aos.css";
 import Aos from 'aos';
- 
+
 const About = () => {
   useEffect(() => {
-    Aos.init({duration:1500})
-  },[])
+    Aos.init({ duration: 1500 })
+  }, [])
   return (
     <>
       <section className="about__section" id="about">
         <div className="container">
-          <div className="section__header">
+          <div className="section__header" data-aos="fade-up " data-aos-duration="1000">
             <h5>About Me</h5>
-            <h1>About Me</h1>
-            <p>
+            {/* <h1>About Me</h1> */}
+            {/* <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
               adipisci laboriosam eligendi quis nisi mollitia ab veritatis
-            </p>
+            </p> */}
           </div>
           <div className="row">
             <div className="col-md-6">
@@ -29,7 +29,7 @@ const About = () => {
             </div>
             <div className="col-md-6" data-aos="fade-up " data-aos-duration="1000">
               <div className="about__discription">
-                <h2>I'm Saad-af</h2>
+                <h2>I'm <br /> Mohammad Haolader</h2>
                 <h3>
                   A Lead Visual Artist based in <span>Bangladesh</span>
                 </h3>
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="about__table">
                   <div>
                     <h4>
-                      Name: <span>Saadaf</span>
+                      Name: <span>Mohammad Haolader</span>
                     </h4>
                     <h4>
                       Age: <span>21+</span>
@@ -63,10 +63,10 @@ const About = () => {
                       Address: <span>Bangladeshi</span>
                     </h4>
                     <h4>
-                      Phone: <span>+12345667</span>
+                      Phone: <span>+8801870941293</span>
                     </h4>
                     <h4>
-                      Email: <span>saadafahmed45@gmail.com</span>
+                      Email: <span>mohammadhaolader1@gmail.com</span>
                     </h4>
                     <h4>
                       Languages: <span>Bangla/English/Arabic</span>

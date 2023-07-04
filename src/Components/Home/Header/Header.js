@@ -8,21 +8,21 @@ const Header = () => {
   return (
     <>
       <header>
-        <AnimatedCursor
+        {/* <AnimatedCursor
           innerSize={8}
           outerSize={35}
           color="3, 252, 44"
           outerAlpha={0.4}
           innerScale={0.7}
           outerScale={2}
-        />
+        /> */}
         <Navbar></Navbar>
 
         <div className="container">
           <div className="row">
             <div className="col-md-8">
               <div className="header__content mt-5">
-                <h2>Hey, I'm Saad-Af</h2>
+                <h2>Hey, I'm <br />Mohammad Haolader </h2>
                 <div className="typeing">
                   <span>
                     {" "}
@@ -48,7 +48,7 @@ const Header = () => {
                 </p>
               </div>
               <div className="header__button">
-                <a href="#" className="btn btn-lg btn-outline-light">
+                <a href="https://drive.google.com/file/d/1YsfbAEZM9rvkf51D_xl_XE4kXtLYNQPG/view" className="btn btn-lg btn-outline-light">
                   Download CV
                 </a>
               </div>

@@ -11,7 +11,7 @@ const Blog = () => {
     <div>
       <section className="blog__section" id="blog">
         <div className="container">
-          <div className="section__header">
+          <div className="section__header" data-aos="fade-up " data-aos-duration="1000">
             <h5>Our Blogs</h5>
             <h1>Recent News</h1>
             <p className="sec__para">

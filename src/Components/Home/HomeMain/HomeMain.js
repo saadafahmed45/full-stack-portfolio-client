@@ -9,10 +9,10 @@ import Header from "../Header/Header";
 import Portfolio from "../Portfolio/Portfolio";
 import Testimonials from "../Testimonials/Testimonials";
 // import ClockLoader from "react-spinners/FadeLoader";
-
 import loadImg from "../../Images/loader__smile.gif";
 
 import Typical from "react-typical";
+import { SyncLoader } from "react-spinners";
 
 const HomeMain = () => {
   const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ const HomeMain = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2800);
+    }, 2000);
   }, []);
   return (
     <>
@@ -29,8 +29,8 @@ const HomeMain = () => {
         <div className="home_spnner text-center">
           {" "}
           {/* <ClockLoader color={"#10e762"} loading={loading} size={100} /> */}
-          <img src={loadImg} alt="" />
-          <h3>
+          {/* <img src={loadImg} alt="" /> */}
+          {/* <h3>
             {" "}
             <span>
               {" "}
@@ -40,7 +40,13 @@ const HomeMain = () => {
                 wrapper="b"
               />{" "}
             </span>
-          </h3>
+          </h3> */}
+
+          <SyncLoader
+            color="#10e762"
+            loading
+            size={20}
+          />
         </div>
       ) : (
         <div>
@@ -48,7 +54,7 @@ const HomeMain = () => {
           <About></About>
           <MyExperience />
           <Portfolio></Portfolio>
-          <Testimonials></Testimonials>
+          {/* <Testimonials></Testimonials> */}
           <Blog></Blog>
           <Footer></Footer>
         </div>

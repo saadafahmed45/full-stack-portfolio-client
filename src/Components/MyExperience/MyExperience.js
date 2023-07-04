@@ -26,7 +26,7 @@ const MyExperience = () => {
     <>
       <section className="experience__section">
         <div className="container">
-          <div className="experience__header">
+          <div className="experience__header" data-aos="fade-up " data-aos-duration="1000">
             <h1>My Experience</h1>
             <p>
               Web Developer with skills to build and maintain Front-end systems.
@@ -44,17 +44,17 @@ const MyExperience = () => {
                 <span class="badge bg-secondary">Education</span>
                 <div className="education mt-3">
                   <h5>2020-2021</h5>
-                  <h4>J.S.C Exam <span>-Shodesh Adorsho <br />School and Collage, Dhaka, 1362</span> </h4>
+                  <h4>J.S.C <span>-Shodesh Adorsho <br />School and Collage, Dhaka, 1362</span> </h4>
                     <hr />
                 </div>
                 <div className="education">
                   <h5>2020-2021</h5>
-                  <h4>S.S.C Commerce <span>-  A.K  <br />University, Dhaka, 1263</span> </h4>
+                  <h4>S.S.C  <span>-  A.K  <br />University, Dhaka, 1263</span> </h4>
                     <hr />
                 </div>
                 <div className="education">
                   <h5>2021-2022</h5>
-                  <h4>Ph.D in Horriblensess <span>- Mohammadbag Adarsho <br /> collage & University, Dhaka, Bangladesh</span> </h4>
+                  <h4>HSC Candidate <span>- Mohammadbag Adarsho <br /> collage & University, Dhaka, Bangladesh</span> </h4>
                
                 </div>
               </div>
@@ -99,7 +99,14 @@ const MyExperience = () => {
                       <img src={mongoDb} alt="" />
                       <h4>MongoDB</h4>
                     </div>
-
+                    <div className="icon">
+                      <img src={reactRouter} alt="" />
+                      <h4>React Router</h4>
+                    </div> 
+                    <div className="icon">
+                      <img src={github} alt="" />
+                      <h4>GitHUB</h4>
+                    </div>
                     <div className="icon">
                       <img src={bootstrap} alt="" />
                       <h4>bootstrap</h4>
@@ -109,10 +116,7 @@ const MyExperience = () => {
                       <img src={metarial} alt="" />
                       <h4>Metarieal Ui</h4>
                     </div>
-                    <div className="icon">
-                      <img src={reactRouter} alt="" />
-                      <h4>React Router</h4>
-                    </div> 
+                  
                     <div className="icon">
                       <img src={photoahop} alt="" />
                       <h4>Photoshop</h4>
@@ -122,10 +126,7 @@ const MyExperience = () => {
                       <img src={tailwindcss} alt="" />
                       <h4>Tailwind CSS</h4>
                     </div>
-                    <div className="icon">
-                      <img src={github} alt="" />
-                      <h4>GitHUB</h4>
-                    </div>
+                  
 
                     <div className="icon">
                       <img src={npm} alt="" />

@@ -1,26 +1,31 @@
-import React from "react";
+import React, { useState, useEffect }from "react";
 import "./Footer.css";
 import { FiPhoneCall } from "react-icons/fi";
 import { FiMapPin } from "react-icons/fi";
 import { FiMessageSquare } from "react-icons/fi";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Footer = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <footer className="footer__section" id="contact">
-        <div className="section__header">
+        <div className="section__header" data-aos="fade-up " data-aos-duration="1000">
           <h5>Contact</h5>
         </div>
-        <div className="footer__container text-white">
+        <div className="footer__container text-white" data-aos="fade-up " data-aos-duration="1000">
           <div className="footer__content">
             <h1>Let's discuss your project</h1>
-            <div className="footer__icon">
+            <div className="footer__icon"data-aos="fade-up " data-aos-duration="1000">
             <ul>
               <li>
                 <i>
                   <FiPhoneCall />
                 </i>
-                <span>+44 1632 967704</span>
+                <span>+8801870941293</span>
               </li>
 
               <li>
@@ -45,7 +50,7 @@ const Footer = () => {
               I'm always open to discussing product <br/>
               <span>design work or partnerships.</span>
             </h3>
-<div className="form__section">
+<div className="form__section" data-aos="fade-up " data-aos-duration="1000">
     <form action="">
 <input type="text" placeholder="Name*" />
 <br/>

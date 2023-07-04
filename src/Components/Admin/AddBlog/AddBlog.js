@@ -18,7 +18,7 @@ const AddBlog = () => {
         };
         console.log(eventData);
     
-        const url = `http://localhost:5000/addProject`;
+        const url = `https://my.api.mockaroo.com/test.json?key=d4115900`;
         fetch(url, {
           method: "POST",
           headers: { "content-type": "application/json" },

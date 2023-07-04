@@ -25,38 +25,38 @@ const Navbar = () => {
 
   return (
     <div className="menu ">
-     <nav class={navbar ?  "navbar navbar-expand-lg  fixed-top  navbar-dark bg-dark" : "navbar navbar-expand-lg fixed-top  navbar-dark bg-transparent"}>
-  <div class="container d-flex justify-content-between">
-   <div>
-   <a class="navbar-brand" href="#">
-      <img src={logo} alt="" />
-    </a>
-   </div>
-    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#blog">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
+      <nav class={navbar ? "navbar navbar-expand-lg  fixed-top  navbar-dark bg-dark" : "navbar navbar-expand-lg fixed-top  navbar-dark bg-transparent"}>
+        <div class="container d-flex justify-content-between">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src={logo} alt="" />
+            </a>
+          </div>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 };

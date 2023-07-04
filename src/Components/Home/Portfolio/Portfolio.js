@@ -80,17 +80,22 @@ const Portfolio = () => {
       liveLink: "https://burj-al-arab-saad-b614b.web.app/",
     },
   ];
+ const add= (a,b,c=3)=> a+b+c;
+ console.log(add(1,2));
 
+
+
+  
   return (
     <>
       <section className="portfilo__section" id="portfolio">
         <div className="container">
-          <div className="section__header">
+          <div className="section__header" data-aos="fade-up " data-aos-duration="1000">
             <h5>Portfolio </h5>
-            <h1>My Portfolio {portfolio.length}</h1>
+            <h1>My Portfolio </h1>
             <p className="sec__para">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              adipisci laboriosam eligendi quis nisi mollitia ab veritatis
+            Just some of the projects I worked on.
+
             </p>
           </div>
 

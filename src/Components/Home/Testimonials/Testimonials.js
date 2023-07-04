@@ -24,7 +24,7 @@ const Testimonials = () => {
     <div>
       <section className="testimonials__secction">
         <div className="container">
-          <div className="section__header">
+          <div className="section__header" data-aos="fade-up " data-aos-duration="1000">
             <h5>Testimonials</h5>
             <h1>What's Clients Say.</h1>
             <p className="sec__para">

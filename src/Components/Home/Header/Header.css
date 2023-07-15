@@ -13,6 +13,10 @@ position: relative;
 
 }
 
+
+.home_spnner{
+  margin-top: 270px;
+}
 header::after {
   background: rgba(0, 0, 0, 0.438);
   content: "";

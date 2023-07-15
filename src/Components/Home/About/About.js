@@ -22,12 +22,12 @@ const About = () => {
             </p> */}
           </div>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 mt-5">
               <div className="about__img" data-aos="fade-up " data-aos-duration="1000">
                 <img src={about} alt="" />
               </div>
             </div>
-            <div className="col-md-6" data-aos="fade-up " data-aos-duration="1000">
+            <div className="col-md-6 mt-5" data-aos="fade-up " data-aos-duration="1000">
               <div className="about__discription">
                 <h2>I'm <br /> Mohammad Haolader</h2>
                 <h3>

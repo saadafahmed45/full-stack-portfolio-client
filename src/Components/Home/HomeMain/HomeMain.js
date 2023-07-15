@@ -12,7 +12,7 @@ import Testimonials from "../Testimonials/Testimonials";
 import loadImg from "../../Images/loader__smile.gif";
 
 import Typical from "react-typical";
-import { SyncLoader } from "react-spinners";
+import { ScaleLoader } from "react-spinners";
 
 const HomeMain = () => {
   const [loading, setLoading] = useState(false);
@@ -26,7 +26,7 @@ const HomeMain = () => {
   return (
     <>
       {loading ? (
-        <div className="home_spnner text-center">
+        <div className="home_spnner text-center ">
           {" "}
           {/* <ClockLoader color={"#10e762"} loading={loading} size={100} /> */}
           {/* <img src={loadImg} alt="" /> */}
@@ -42,10 +42,9 @@ const HomeMain = () => {
             </span>
           </h3> */}
 
-          <SyncLoader
+          <ScaleLoader
             color="#10e762"
-            loading
-            size={20}
+            height={50}
           />
         </div>
       ) : (

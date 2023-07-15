@@ -19,21 +19,22 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomeMain />
-        
+
         } />
 
-       <Route path="/portfolio_details/:id" element={<PortfolioDetails/>}/>
-    
-        <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path="/portfolio_details/:id" element={<PortfolioDetails />} />
+
+        <Route path="/dashboard" element={<Dashboard />} />
         {/* <Route path="about" element={<About />} /> */}
-        <Route path="/dashboard/addBlog" element={<AddBlog/>} />
-        <Route path="*" element={<Error/>} />
+        <Route path="/dashboard/addBlog" element={<AddBlog />} />
+        <Route path="/dashboard/add_project" element={<h1>add project</h1>} />
+        <Route path="*" element={<Error />} />
       </Routes>
 
       <ScrollToTop smooth
-      width="24"
-      height="24"
-       />
+        width="24"
+        height="24"
+      />
     </div>
   );
 }
